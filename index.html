@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covertion Celcius to Fahrenheith</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--gambar awal/judul--> 
+    <header>
+        <div>
+            <img src="th (1).jpeg" class="img-class">
+        </div>
+    </header>
+
+    <!--kotak baris pertama-->
+    <nav>
+        <div class="div1-class">
+            <b class="p-class">Masukan suhu derajat Celcius ke kotak dibawah, lalu klik tombol konversi untuk mendapatkan hasil konversi dalam bentuk fahrenheith.</b>
+        </div>
+    </nav>
+
+    <!--kotak baris kedua-->
+    <nav class="nav-class">
+        <div class="div2-class">
+            <div class="div-kotakke2-celcius">
+                <p class="p2-class">CELCIUS</p>
+                <img src="th-removebg-preview (1).png" class="img2-class">
+            </div>
+            <div id="input-celcius-fahrenheit">
+                <input name="input-celcius" placeholder="Derajat Celcius" class="input-celcius-fahrenheit" id="inputCelcius">
+            </div>
+            
+        </div>
+        <div class="div2-class">
+            <div class="div-kotakke2-celcius">
+                <p class="p2-class">FAHRENHEITH</p>
+                <img src="png-transparent-celsius-degree-symbol-temperature-fahrenheit-symbol-miscellaneous-text-measurement-removebg-preview.png" class="img2-class">
+            </div>
+            <div id="input-celcius-fahrenheit">
+                <input name="input-celcius" placeholder="Derajat Fahrenheith" class="input-celcius-fahrenheit" id="inputFahrenheit">
+            </div>
+        </div>
+    </nav>
+
+    <!--tombol-->
+    <div class="div-tombol">
+        <button type="button" class="tombol-class" id="btn1" onclick="konversiCelcius()">KONVERSI</button>
+        <button type="button" class="tombol-class" id="btn1" onclick="reset()">RESET</button>
+        
+    </div>
+    
+    <!--kotak baris ketiga-->
+    <nav class="navrumus-class">
+        <div class="div-navrumus-1">
+            <p class="p2-class">PERHITUNGAN</p>
+            <img src="fandctempconversion.jpg" class="img-navrumus-1">
+        </div>
+        <div class="div-navrumus-2">
+            <input class="input-celcius-fahrenheit" id="kalkulasi" >
+        </div>
+    </nav>
+    <script src="java.js" type="text/javascript"></script>
+</body>
+</html>

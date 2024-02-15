@@ -1,0 +1,132 @@
+
+body{
+    background-image: url(2c0a90b85907e99869ca78bb64e27831.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.img-class{
+    margin: 20px;
+    margin-right: 40px;
+    width: 97%;
+    height: 450px;
+    background-color: white;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+.div1-class{
+    background-color: rgb(245, 245, 245);
+    height: 50px;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    position: sticky;
+    animation-name: example;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
+
+@keyframes example {
+  from {top: 0px;}
+  to {top: 200px; background-color: yellowgreen;}
+}
+
+.p-class {
+    width: auto;
+    margin-left: 10px;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+}
+
+.p2-class{
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 150px;
+    height: 20px;
+    margin-right: 380px;
+    margin-left: 10px;
+    font-size: larger;
+}
+
+.nav-class{
+    display: flex;
+    
+}
+
+.div-tombol{
+    display: flex;
+}
+
+.tombol-class{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.div2-class{
+    width: 50%;
+    height: 250px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    background-color: yellowgreen;
+    
+
+}
+
+.div-kotakke2-celcius{
+    display: flex;
+    
+}
+
+.input-celcius-fahrenheit{
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    width: 90%;
+    font-size: larger
+}
+
+.img2-class{
+    margin: 10px;
+    width: 8%;
+    height: 16%;
+}
+
+.navrumus-class{
+    background-color: yellowgreen;
+    border: 2px solid black;
+    margin: 20px;   
+    height: 250px;
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.img-navrumus-1{
+    margin-left: 10px;
+    height: 70%;
+    width: 50%;
+    border-radius: 10px;
+}
+
+#kalkulasi{
+    width: 700px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    font-size: larger;
+}
